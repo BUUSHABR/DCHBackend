@@ -1,0 +1,31 @@
+{
+  "name": "sk_digi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Itinformatrix",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^11.9.0",
+    "fs-extra": "^10.0.0",
+    "html-pdf": "^3.0.1",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.5",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.12",
+    "pdfkit": "^0.13.0"
+  }
+}
